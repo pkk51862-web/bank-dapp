@@ -1,0 +1,93 @@
+
+body {
+    background-color: #f5f7fb;
+    color: #212529;
+    min-height: 100vh;
+}
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: -0.5px;
+}
+
+.student-info {
+    color: #000;
+}
+
+.student-placeholder {
+    color: #000;
+    font-weight: 600;
+}
+
+.card {
+    border: 1px solid #e9edf3;
+    border-radius: 16px;
+}
+
+.card-body {
+    overflow-wrap: anywhere;
+}
+
+.address-text {
+    font-family: monospace;
+    font-size: 0.9rem;
+    overflow-wrap: anywhere;
+}
+
+.balance-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+.icon-circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.deposit-icon {
+    background-color: #d1e7dd;
+    color: #146c43;
+}
+
+.withdraw-icon {
+    background-color: #fff3cd;
+    color: #997404;
+}
+
+.form-control {
+    min-height: 46px;
+}
+
+.btn {
+    min-height: 42px;
+    font-weight: 500;
+}
+
+#statusMessage {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 576px) {
+    main.container {
+        padding-top: 1.5rem !important;
+    }
+
+    .navbar .container {
+        gap: 12px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
